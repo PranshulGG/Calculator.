@@ -9,7 +9,8 @@
 
 body{
     padding:0;
-    margin: auto;
+    position: relative;
+    
     background: linear-gradient(#ff0076 ,#590fb7 )
     
 }
@@ -34,6 +35,7 @@ h4{
 	border-radius: 20px;
     justify-content: center;
 	box-shadow: 2px 2px 50px rgb(255, 0, 47);
+    top: 100px;
 }
 
 .calculator{
@@ -49,7 +51,7 @@ h4{
 .calculator > button{
     margin: 4px;
     color: #0963c9;
-    font-size: 26px;
+    font-size: 40px;
     text-shadow: 1px 1px 1px red;
     outline: none;
     cursor: auto;
@@ -113,7 +115,7 @@ button:active{
 footer{
 	position: relative;
 	margin: 20px 0;
-	top: -450px;
+	top: -344px;
     
 	height: 50px;
 	width: 100%;
