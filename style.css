@@ -9,7 +9,7 @@
 
 body{
     padding:0;
-    margin: auto;
+    margin: 100px;
     background: linear-gradient(#ff0076 ,#590fb7 )
     
 }
@@ -27,7 +27,7 @@ h4{
 .layout{
 	margin: auto;
 	width: 340px;
-	height: 520px;
+	height: 590px;
 	position: relative;
     right: px;
 	background: rgb(0, 78, 129);
@@ -37,7 +37,7 @@ h4{
 }
 
 .calculator{
-    height: 500px;
+    height: 530px;
     
  
     display: grid;
@@ -47,13 +47,17 @@ h4{
 }
 
 .calculator > button{
-    margin: 6px;
+    margin: 4px;
     color: #0963c9;
     font-size: 26px;
     text-shadow: 1px 1px 1px red;
     outline: none;
-    cursor: pointer;
+    cursor: auto;
     font-family: 'Brush Script MT ', Cursive;
+    position: relative;
+    top: 25px;
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 
 .span-two{
@@ -64,10 +68,11 @@ h4{
 }
 
 button{
-    border-radius: 50%;
+    border-radius: 30%;
     border: none;
 	 background: linear-gradient(315deg, #23c0db, rgb(226, 255, 192));
 	 box-shadow: 2px 2px 6px #ad4242;
+     
 }
 
 button:active{
@@ -108,14 +113,15 @@ button:active{
 footer{
 	position: relative;
 	margin: 20px 0;
-	top: 10vh;
+	top: -450px;
+    
 	height: 50px;
 	width: 100%;
 	text-align: center;
-	color: #fff;
+	color: #01f7ff;
    font-size: 32px;
 	font-weight: bold;
-	text-shadow: 2px 2px 5px #fc737c;
+	text-shadow: 2px 2px 5px #ff0202;
 	font-family: 'Parisienne', cursive;
 }
 a{
