@@ -51,7 +51,7 @@ h4{
 .calculator > button{
     margin: 4px;
     color: #0963c9;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 1px 1px 1px red;
     outline: none;
     cursor: auto;
