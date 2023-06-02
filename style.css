@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+body{
+    padding:0;
+    margin: 160px;
+    background: linear-gradient(#ff0076 ,#590fb7 )
+}
+
+h4{
+    color: #ff0f0f;
+    font-size: px;
+    text-align: center;
+    font-family: '	Fantasy', cursive;
+    
+    text-shadow: -2px -2px 10px #73bafc;
+    font-style: italic;
+}
+
+.layout{
+	margin: auto;
+	width: 350px;
+	height: 540px;
+	position: relative;
+    right: 100px;
+	background: rgb(0, 78, 129);
+	border-radius: 20px;
+    justify-content: center;
+	box-shadow: 2px 2px 50px rgb(255, 0, 47);
+}
+
+.calculator{
+    height: 500px;
+    
+ 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 70px);
+}
+
+.calculator > button{
+    margin: 6px;
+    color: #0963c9;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px red;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Brush Script MT ', Cursive;
+}
+
+.span-two{
+    grid-column: span 2;
+    height: 90%;
+    width: 95%;
+    border-radius: 5em;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+	 background: linear-gradient(315deg, #23c0db, rgb(226, 255, 192));
+	 box-shadow: 2px 2px 6px #ad4242;
+}
+
+button:active{
+	background: linear-gradient(315deg, rgb(255, 1, 1), #7556ff);
+}
+
+.output{
+    grid-column: 1/ -1;
+    box-shadow : inset -2px -2px 10px #6f00ff;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
+    justify-content: space-around;
+	 flex-direction:column;
+	 padding: 0px 20px;
+	 word-wrap: break-word;
+	 word-break: break-all;
+    border-radius: 30px;
+    margin: 35px 0 30px 0;
+}
+.output .previous {
+	color: rgba(182, 15, 15, 0.7);
+    text-shadow: 1px 1px 1px rgb(255, 251, 0);
+	font-size: 20px;
+   margin-top:10px;
+   font-family: 'Bahnschrift SemiBold', cursive;
+}
+
+.output .current {
+	color: #a11111;
+    text-shadow: 1px 1px 1px rgb(142, 9, 219);
+	font-size: 30px;
+   margin: 5px 0;
+   font-family: 'Comic Sans MS' ,cursive;
+}
+
+
+footer{
+	position: relative;
+	margin: 20px 0;
+	top: 10vh;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+   font-size: 32px;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #fc737c;
+	font-family: 'Parisienne', cursive;
+}
+a{
+	color: #fff;
+   font-size: 35px;
+	font-weight: bold;
+	text-decoration:none;
+   font-family: 'Parisienne', cursive;
+	text-shadow: 2px 2px 5px #fc737c;
+}
