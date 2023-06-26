@@ -5,7 +5,7 @@ let data = [], temp = [];
 
 function init(x){
     data = [];
-    temp = [];
+    temp = []; 
     display.innerHTML =x;
     miniDisplay.innerHTML = "&nbsp;";
     backsps.innerHTML = "AC";
