@@ -1,10 +1,9 @@
 body{
 	font-family: calibri;
-    overflow: hidden;
-    background:linear-gradient(20deg , rgb(180, 6, 166) , rgb(22, 27, 107)); 
-    touch-action: none;
+     overflow: hidden; 
+     background:linear-gradient(20deg , rgb(180, 6, 166) , rgb(22, 27, 107));  
+     touch-action: none; 
 	
-
 
 }
 
@@ -12,7 +11,8 @@ body{
 	width:350px;
 	margin: 50px;
 	overflow: hidden;
-	background: linear-gradient(20deg , rgb(180, 6, 166) , rgb(22, 27, 107)); 
+	 background: linear-gradient(20deg , rgb(180, 6, 166) , rgb(22, 27, 107));  
+	
 	
 	padding: 5px;
 	
@@ -31,12 +31,13 @@ body{
 	color: rgb(255, 255, 255);
 	
 
+
 	
 }
 
 #miniDisplay{
 	font-size:16pt;
-	color: rgba(192, 192, 192, 0);
+	color: rgb(192, 192, 192);
 	padding: 10px;
 	text-align: right;
 }
