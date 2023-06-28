@@ -24,11 +24,12 @@ body{
 }
 
 #display{
-	font-size:30pt;
+	font-size:28pt;
 	padding: 10px;
 	display: flex;
 	justify-content: flex-end;
 	color: rgb(255, 255, 255);
+	font-family: Bagel Fat One;
 	
 
 
