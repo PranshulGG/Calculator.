@@ -64,8 +64,8 @@ button{
 	
 }
 
-button:hover{
-	background:rgb(240,240,250);
+button:active{
+	background:rgb(255, 0, 0);
 }
 
 #equal{
