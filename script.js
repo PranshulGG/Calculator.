@@ -7,7 +7,7 @@ function init(x){
     data = [];
     temp = [];
     display.innerHTML =x;
-    miniDisplay.innerHTML = "&nbsp;";
+    miniDisplay.innerHTML = "&nbsp;"; 
     backsps.innerHTML = "AC";
 }
 
