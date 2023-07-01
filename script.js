@@ -43,7 +43,7 @@ function getAns(){
     data.push(x);
     temp.push(x);
 }
-const splashDuration = 3000; // 3 seconds
+const splashDuration = 4000; // 3 seconds
 
     // Function to hide the splash screen
     function hideSplashScreen() {
