@@ -5,7 +5,7 @@ let data = [], temp = [];
 
 function init(x){
     data = [];
-    temp = []; 
+    temp = [];
     display.innerHTML =x;
     miniDisplay.innerHTML = "&nbsp;";
     backsps.innerHTML = "AC";
@@ -43,3 +43,13 @@ function getAns(){
     data.push(x);
     temp.push(x);
 }
+const splashDuration = 3000; // 3 seconds
+
+    // Function to hide the splash screen
+    function hideSplashScreen() {
+      const splashScreen = document.querySelector('.splash-screen');
+      splashScreen.style.display = 'none';
+    }
+
+    // Wait for the specified duration and then hide the splash screen
+    setTimeout(hideSplashScreen, splashDuration);
